@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media print {
+
+}
+
+@media screen and (max-width:600px) {
+
+    nav {
+        justify-content: left;
+        padding-top: 5px;
+    }
+
+    #logo {
+        padding-left: 10px;
+        gap: 15px;
+    }
+
+    #logo img {
+        width: 25px;
+        height: 25px;
+
+        
+    }
+
+    #links {
+        padding: 0px 10px;
+        gap: 15px;
+    }
+
+    #cabecalho p {
+        width: 450px;
+        text-align: ;
+        
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:768px) {
+    
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    
+}
+
+
+
+@media screen and (min-width:1200px) {
+    
+}
