@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/media.css">
 </head>
-<body>
+<body onresize ="mudouTamanho()">
     
     <nav>
-                     
+        
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+        
         <div id="logo">
             <img src="imagens/logo.png" alt="logo">
             <p>OptimusTech</p>
@@ -39,7 +43,7 @@
         <h1>Por que somos Diferentes?</h1>
 
         <p>Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de <br> todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
-
+    </header>
         <section id="numeros">
             <div>
                 <span>400+</span>
@@ -154,30 +158,27 @@
         </section>
 
 
-        <section id="footer">
-            <footer>
-                <h2>Acompanhe as nossas oportunidades</h2>
+        <section>
 
-                <p>Seja o primeiro a saber quando novas vagas serão abertas!</p>
-
-                <span class="email">
-                    <form action="" method="post" autocomplete="on" >
-
-                    <label for="iemail"></label>
-
-                    <input type="email" name="email" id="iemail" placeholder="Seu e-mail" autocomplete="email">
-                    
-                    <button class="cadastrar">Cadastrar</button>
-
-                </form>
-
+            <div id="footer">
+                <footer>
+                    <h2>Acompanhe as nossas oportunidades</h2>
+                    <p>Seja o primeiro a saber quando novas vagas serão abertas!</p>
+                    <span class="email">
+                        <form action="" method="post" autocomplete="on" >
+                        <label for="iemail"></label>
+                        <input type="email" name="email" id="iemail" placeholder="Seu e-mail" autocomplete="email">
                 
-
-            </span>
-                <p class="direitos">© 2022 OptimusTech. Todos os direitos reservados.</p>
-
-            </footer>
+                        <button class="cadastrar">Cadastrar</button>
+                    </form>
+                
+                </span>
+                    <p class="direitos">© 2022 OptimusTech. Todos os direitos reservados.</p>
+                </footer>
+            </div>
         </section>
-    </header>
+    
+        
+
 </body>
 </html>

@@ -167,6 +167,7 @@ button:hover {
     flex-direction: column;
     width: 45em;
     height: 600px;
+    margin: auto;
     margin-bottom: 350px;
     
 }
@@ -198,6 +199,8 @@ button:hover {
 #depoimento {
     display: grid;
     text-align: center;
+    width: 75vw;
+    margin: auto;
     margin-bottom: 100px;
     background-color: rgba(211, 211, 211, 0.185);
     border-radius: 15px;
@@ -236,6 +239,7 @@ button:hover {
     align-items: center;
     text-align: center;
     line-height: 40px;
+    justify-content: center;
 }
 
 #footer h2 {
@@ -271,3 +275,4 @@ button:hover {
 #footer .direitos {
     color: #00000057;
 }
+
