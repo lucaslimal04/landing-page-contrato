@@ -4,7 +4,7 @@
 
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
 
     nav {
         justify-content: left;
@@ -19,8 +19,6 @@
     #logo img {
         width: 25px;
         height: 25px;
-
-        
     }
 
     #links {
@@ -29,18 +27,63 @@
     }
 
     #cabecalho p {
+        width: auto;
+    }
+
+    #numeros {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #numeros div {
+        border: 2px solid rgba(211, 211, 211, 0.534);
+        border-radius: 20px;
+        margin: auto;
+        width: 300px;
+        padding: 10px;
+        text-align: center;
+        transform: translate(-50px, -50px);
+    }
+
+    #numeros span{
+        font-size: 30px;
+    }
+
+    #vagas h1{
+        margin-left: 60px;
+    }
+
+    #vagas p{
+        text-align: center;
+        max-width: 400px;
+    }
+
+    #vagas img {
         width: 450px;
-        text-align: ;
-        
+    }
+
+    #emprego {
+        margin-left: 50px;
+    }
+
+    #emprego div {
+        width: 300px;    
+    }
+
+    #depoimento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #depoimento p {
+        font-size: 20px;
+        width: 300px;
+        text-align: left;
     }
 
 }
-
-@media screen and (min-width:600px) and (max-width:768px) {
-    
-}
-
-
 
 @media screen and (min-width:768px) and (max-width:992px) {
     
