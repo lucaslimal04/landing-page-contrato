@@ -19,14 +19,16 @@ body, html {
     overflow-x: hidden;
 }
 
+body {
+    position: absolute;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 16px;
 }
-
-
 
 nav img {
     width: 27px;
@@ -58,6 +60,14 @@ nav img {
 #links a {
     text-decoration: none;
     color: var(--text-color);
+}
+
+.material-symbols-outlined {
+    display: none;
+}
+
+#lista-itens {
+    display: none;
 }
 
 #links a:hover {

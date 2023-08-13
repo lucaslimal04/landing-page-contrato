@@ -7,13 +7,16 @@
 @media screen and (max-width:768px) {
 
     nav {
+        display: grid;
+        grid-template-columns: 1fr;
         justify-content: left;
         padding-top: 5px;
+        
     }
 
     #logo {
-        padding-left: 10px;
-        gap: 15px;
+        padding-left: 6px;
+        gap: 10px;
     }
 
     #logo img {
@@ -22,8 +25,30 @@
     }
 
     #links {
-        padding: 0px 10px;
-        gap: 15px;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .material-symbols-outlined {
+        display: block;
+        width: 100vw;
+        background-color: rgba(211, 211, 211, 0.575);
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .entrar {
+        display: none;
+    }
+
+    #lista-itens{
+        margin: auto;
+        list-style: none;
+    }
+
+    #lista-itens li{
+        list-style: none;
     }
 
     #cabecalho p {
