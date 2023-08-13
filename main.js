@@ -4,7 +4,7 @@ var menuItens = document.querySelector('#lista-itens');
 
 menuButton.addEventListener('click', clicar);
 
-window.addEventListener('resize', tamanho)
+window.addEventListener('resize', tamanho);
 
 function clicar() {
     if (menuItens.style.display == 'block') {
